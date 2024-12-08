@@ -137,8 +137,8 @@ nav.scrolled {
 
 /* Sections */
 .section {
-    padding: 7rem 2rem; /* Increased top/bottom padding */
-    position: relative; /* Added positioning for z-index */
+    padding: 7rem 2rem; 
+    position: relative; 
     z-index: 1;
 }
 
@@ -211,16 +211,10 @@ nav.scrolled {
     font-size: 1.75rem;  /* Adjusted size to be proportional to h2 */
     text-align: center;  /* Centered the heading */
 }
-/*new line*/
-    /* width: 100%;  /* Take full width */
-    /* display: flex;
-    align-items: center;
-    justify-content: center;  Center the heading and icon */
-
 
 .skill-category h3::before {
     content: '';
-    position: absolute; /* new line until width*/
+    position: absolute; 
     display: inline-block;
     left: 0;
     top: 50%;
@@ -244,12 +238,12 @@ nav.scrolled {
 .skill-category ul {
     list-style: none;
     display: flex;
-    justify-content: center;  /* Center the skills */
+    justify-content: center;  
     flex-wrap: wrap;
-    gap: 0.75rem;  /* Reduced gap between skills */
+    gap: 0.75rem;  
     padding: 0;
-    margin: 0 auto;  /* Center the list */
-    max-width: 800px;  /* Limit max width for better layout */
+    margin: 0 auto;  
+    max-width: 800px;  
 }
 
 .skill-category li {
@@ -257,8 +251,8 @@ nav.scrolled {
     transition: all 0.3s ease;
     padding: 0.5rem 1rem;
     cursor: pointer;
-    flex: 0 1 auto;  /* Don't force flex growth */
-    min-width: 100px;  /* Minimum width for items */
+    flex: 0 1 auto;  
+    min-width: 100px;  
     text-align: center;
 }
 
